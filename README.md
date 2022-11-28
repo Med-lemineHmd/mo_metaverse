@@ -1,3 +1,28 @@
+# Mo-Metaversus
+
+
+
+
+<div align="center">
+
+  <br />
+  <br />
+  
+
+  <a href="https://mo-metaverse.vercel.app/"><strong>➥ Live Demo</strong></a>
+
+</div>
+
+<br />
+
+### Demo Screeshots
+![screen-1](https://user-images.githubusercontent.com/76164295/204404139-5f9a9f7f-ac80-42f3-84a2-67fc777a125f.png)
+![screen-2](https://user-images.githubusercontent.com/76164295/204404152-1fa7afb2-4b48-4f61-a41c-ddf238144a2f.png)
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -32,3 +57,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### Copyright 
+<p align="center"><img src="https://avatars.githubusercontent.com/u/76164295?v=4" width="50" height="50"/></p>
+<p align="center">
+<sub>By <a href="https://github.com/Med-lemineHmd">Mo lemine Hamdinou</a></sub>
+</p>
+
