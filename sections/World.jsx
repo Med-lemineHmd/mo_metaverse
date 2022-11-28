@@ -1,11 +1,10 @@
-"use client";
+'use client';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import styles from "../styles";
-import { staggerContainer, fadeIn, planetVariants } from "../utils/motion";
-import { NewFeatures, TypingText, TitleText } from "../components";
-import { newFeatures } from "../constants";
+import styles from '../styles';
+import { staggerContainer, fadeIn } from '../utils/motion';
+import { TypingText, TitleText } from '../components';
 
 const World = () => (
   <section className={`${styles.paddings} relative z-0`}>
@@ -18,16 +17,16 @@ const World = () => (
     >
       <TypingText title="| People on the World" textStyles="text-center" />
       <TitleText
-        title={
+        title={(
           <>
             Track friends around you and invite them to play together in the
             same world
           </>
-        }
+        )}
         textStyles="text-center"
       />
       <motion.div
-        variants={fadeIn("up", "tween", 0.3, 1)}
+        variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >
         <img src="/map.png" alt="map" className="w-full h-full object-cover" />
@@ -39,6 +38,12 @@ const World = () => (
         </div>
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="people-03.png" alt="people" className="w-full h-full" />
+        </div>
+        <div className="absolute top-2/3 left-[188px] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+          <img src="people-05.png" alt="people" className="w-full h-full bg-teal-600 rounded-full" />
+        </div>
+        <div className="absolute top-14 left-[60%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
+          <img src="people-04.png" alt="people" className="w-full h-full bg-amber-500 rounded-full" />
         </div>
       </motion.div>
     </motion.div>
